@@ -1,2 +1,2 @@
 # Statilab-Downloads
-Statilab – Installer für Windows und Linux
+Statilab – Installationsdateien für Windows und Linux
