@@ -40,11 +40,11 @@ Der Zielordner kann geändert werden (Vorschlag: `C:\Users\<Name>\AppData\Local\
 <p align="center"><img src="bilder/1-willkommen.png" alt="Setup-Seite Willkommen" width="720"></p>
 
 > [!WARNING]
-> **Setup bleibt hängen:** Manchmal erscheint die Willkommen-Seite **unvollständig**. Die linke Seite zeigt nur den hellblauen Hintergrund – ohne Figur, Schriftzug und Schrittliste – und das Setup reagiert nicht mehr (siehe Bild unten).
+> **Setup bleibt hängen:** Manchmal lädt die Willkommen-Seite **nicht vollständig**. Zu sehen sind nur Hintergrund, Figur, der Schriftzug „Statilab – Statik für 2D und 3D“ und die Versionsnummer; die Schrittliste links und der gesamte rechte Bereich bleiben leer, und das Setup reagiert nicht mehr (siehe Bild unten).
 >
 > **Lösung:** Das Setup-Fenster schließen (falls nötig über den Task-Manager: *Strg + Umschalt + Esc* → „Statilab-Setup“ → *Task beenden*) und `Statilab-Setup.exe` **erneut starten**. Beim zweiten Start läuft es normal durch.
 
-<p align="center"><img src="bilder/1b-haengt.png" alt="Hängendes Setup: linke Seite zeigt nur den Hintergrund" width="560"></p>
+<p align="center"><img src="bilder/1b-haengt.png" alt="Hängendes Setup: nur Figur und Schriftzug, rechter Bereich leer" width="560"></p>
 
 ## 4. Lizenz
 
@@ -79,7 +79,7 @@ Die Installation ist abgeschlossen. Mit eingeschaltetem **Statilab jetzt starten
 | Problem | Lösung |
 |---|---|
 | Nach dem Doppelklick passiert nichts oder das Startbild bleibt lange stehen | bis zu 2 Minuten warten (Prüfung durch Windows Defender beim ersten Start), danach das Setup erneut starten |
-| Willkommen-Seite links nur Hintergrund, Setup reagiert nicht | Setup schließen und erneut starten (siehe [Schritt 3](#3-willkommen)) |
+| Setup zeigt nur Figur und Schriftzug, ohne Schrittliste und Inhalt, und reagiert nicht | Setup schließen und erneut starten (siehe [Schritt 3](#3-willkommen)) |
 | „Der Computer wurde durch Windows geschützt“ | **Weitere Informationen → Trotzdem ausführen** |
 | „Statilab ist noch geöffnet …“ | alle Statilab-Fenster schließen, dann **Nochmals versuchen** |
 | Lizenzschlüssel wird als ungültig gemeldet | Schlüssel vollständig kopieren (beginnt mit `STATI-`) oder **Lizenzdatei wählen …** verwenden |
